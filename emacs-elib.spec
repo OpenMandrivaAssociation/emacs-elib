@@ -3,7 +3,7 @@
 
 Name:           emacs-%{fname}
 Version:        1.0
-Release:        %mkrel 6
+Release:        %mkrel 7
 Epoch:          0
 Summary:        Emacs Lisp Library
 Requires:       emacs >= 0:20.7
@@ -27,7 +27,7 @@ The Emacs Lisp Library.
 %patch -p1
 
 %build
-%make
+%{make}
 
 %install
 %{__rm} -rf %{buildroot}
