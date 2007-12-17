@@ -14,7 +14,6 @@ Patch:          emacs-elib-1.0-direntry.patch
 Group:          Editors
 Obsoletes:      elib < %{epoch}:%{version}-%{release}
 Provides:       elib = %{epoch}:%{version}-%{release}
-Buildroot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:      noarch
 BuildRequires:  emacs-bin
 BuildRequires:  texinfo
