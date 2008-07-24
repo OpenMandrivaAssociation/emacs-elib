@@ -3,7 +3,7 @@
 
 Name:           emacs-%{fname}
 Version:        1.0
-Release:        %mkrel 8
+Release:        %mkrel 10
 Epoch:          0
 Summary:        Emacs Lisp Library
 Requires:       emacs >= 0:20.7
