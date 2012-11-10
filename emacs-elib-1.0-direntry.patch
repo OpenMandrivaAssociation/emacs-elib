@@ -1,0 +1,14 @@
+--- elib-1.0/elib.texi~	2002-12-08 12:38:08.000000000 -0500
++++ elib-1.0/elib.texi	2002-12-08 12:40:40.000000000 -0500
+@@ -23,6 +23,11 @@
+ @settitle Elib - The Emacs Lisp Library
+ @setchapternewpage odd
+ @syncodeindex fn cp
++
++@dircategory The Emacs Lisp Library
++@direntry
++* ELIB: (elib).         Emacs Lisp Library
++@end direntry
+      
+ @ifinfo
+ Copyright @copyright{} 1991, 1992 Free Software Foundation
