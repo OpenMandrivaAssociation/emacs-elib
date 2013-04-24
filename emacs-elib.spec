@@ -41,8 +41,6 @@ The Emacs Lisp Library.
 %{__rm} -rf %{buildroot}
 
 
-%postun
-%_remove_install_info %{fname}.info
 
 %files
 %defattr(-,root,root)
