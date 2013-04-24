@@ -40,8 +40,6 @@ The Emacs Lisp Library.
 %clean
 %{__rm} -rf %{buildroot}
 
-%post
-%_install_info %{fname}.info
 
 %postun
 %_remove_install_info %{fname}.info
