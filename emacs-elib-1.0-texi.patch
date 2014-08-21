@@ -1,0 +1,15 @@
+diff -Naur elib-1.0/elib.texi elib-1.0.new/elib.texi
+--- elib-1.0/elib.texi	2014-08-21 20:31:48.000000000 +0400
++++ elib-1.0.new/elib.texi	2014-08-21 20:31:25.000000000 +0400
+@@ -38,9 +38,9 @@
+ @sp 4
+ @comment The title is printed in a large font.
+ @center @titlefont{User's Guide}
+-@sp
++@sp 1
+ @center @titlefont{to}
+-@sp
++@sp 1
+ @center @titlefont{Elib - The Emacs Lisp Library}
+ @sp 2
+ @center version 1.0
