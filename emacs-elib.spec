@@ -8,7 +8,7 @@ Epoch:          0
 Summary:        Emacs Lisp Library
 Requires:       emacs >= 0:20.7
 License:        GPL
-URL:            http://jdee.sunsite.dk/
+URL:            https://jdee.sunsite.dk/
 Source:         http://jdee.sunsite.dk/%{fname}-%{version}.tar.bz2
 Patch0:         emacs-elib-1.0-direntry.patch
 Patch1:		emacs-elib-1.0-texi.patch
